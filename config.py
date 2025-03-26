@@ -17,17 +17,17 @@ BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "ll_love_xc_ll")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002358390112)
+LOGGER_ID = int(getenv("LOGGER_ID", -1002366259957))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 7772418073))
+OWNER_ID = int(getenv("OWNER_ID", 7489889897))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/chalcogen645/Heer")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/codes0805/Heer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
